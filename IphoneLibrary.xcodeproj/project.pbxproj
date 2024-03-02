@@ -7,26 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A21578C2B93D83F0097B681 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21578B2B93D83F0097B681 /* ContentView.swift */; };
+		9A21578E2B93DA7A0097B681 /* DockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21578D2B93DA7A0097B681 /* DockView.swift */; };
+		9A2157902B93DA8E0097B681 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21578F2B93DA8E0097B681 /* LibraryCell.swift */; };
+		9A2157942B93ED500097B681 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2157932B93ED500097B681 /* BackgroundImageView.swift */; };
+		9A2157962B93ED580097B681 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2157952B93ED580097B681 /* NotificationView.swift */; };
+		9A2157982B93ED640097B681 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2157972B93ED640097B681 /* TimeView.swift */; };
 		9A5E9F712B8EEBC100444BAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E9F702B8EEBC100444BAA /* Constants.swift */; };
 		9A6B585C2B8ABD1A00BFAAAF /* HomeScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B585B2B8ABD1A00BFAAAF /* HomeScreenApp.swift */; };
-		9A6B585E2B8ABD1A00BFAAAF /* AppKLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B585D2B8ABD1A00BFAAAF /* AppKLibrary.swift */; };
+		9A6B585E2B8ABD1A00BFAAAF /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B585D2B8ABD1A00BFAAAF /* LibraryView.swift */; };
 		9A6B58602B8ABD1B00BFAAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B585F2B8ABD1B00BFAAAF /* Assets.xcassets */; };
 		9A6B58632B8ABD1B00BFAAAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B58622B8ABD1B00BFAAAF /* Preview Assets.xcassets */; };
-		9A6B586A2B8ABD7F00BFAAAF /* AppLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B58692B8ABD7F00BFAAAF /* AppLibraryViewModel.swift */; };
+		9A6B586A2B8ABD7F00BFAAAF /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B58692B8ABD7F00BFAAAF /* LibraryViewModel.swift */; };
 		9A6B586C2B8ABD9F00BFAAAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B586B2B8ABD9F00BFAAAF /* Model.swift */; };
-		9A6B586E2B8ABE3100BFAAAF /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B586D2B8ABE3100BFAAAF /* HomeScreen.swift */; };
+		9A6B586E2B8ABE3100BFAAAF /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B586D2B8ABE3100BFAAAF /* HomeScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A21578B2B93D83F0097B681 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A21578D2B93DA7A0097B681 /* DockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockView.swift; sourceTree = "<group>"; };
+		9A21578F2B93DA8E0097B681 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		9A2157932B93ED500097B681 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		9A2157952B93ED580097B681 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9A2157972B93ED640097B681 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		9A5E9F702B8EEBC100444BAA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		9A6B58582B8ABD1A00BFAAAF /* HomeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6B58582B8ABD1A00BFAAAF /* IphoneLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B585B2B8ABD1A00BFAAAF /* HomeScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenApp.swift; sourceTree = "<group>"; };
-		9A6B585D2B8ABD1A00BFAAAF /* AppKLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKLibrary.swift; sourceTree = "<group>"; };
+		9A6B585D2B8ABD1A00BFAAAF /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		9A6B585F2B8ABD1B00BFAAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A6B58622B8ABD1B00BFAAAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9A6B58692B8ABD7F00BFAAAF /* AppLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLibraryViewModel.swift; sourceTree = "<group>"; };
+		9A6B58692B8ABD7F00BFAAAF /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
 		9A6B586B2B8ABD9F00BFAAAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		9A6B586D2B8ABE3100BFAAAF /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9A6B586D2B8ABE3100BFAAAF /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,11 +52,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A2157912B93DD360097B681 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A6B585D2B8ABD1A00BFAAAF /* LibraryView.swift */,
+				9A21578D2B93DA7A0097B681 /* DockView.swift */,
+				9A21578F2B93DA8E0097B681 /* LibraryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A2157922B93DD590097B681 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A6B58692B8ABD7F00BFAAAF /* LibraryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9A5E9F722B8EF35200444BAA /* AppLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				9A6B585D2B8ABD1A00BFAAAF /* AppKLibrary.swift */,
-				9A6B58692B8ABD7F00BFAAAF /* AppLibraryViewModel.swift */,
+				9A5E9F752B8EF38D00444BAA /* Model */,
+				9A2157912B93DD360097B681 /* Views */,
+				9A2157922B93DD590097B681 /* ViewModel */,
 			);
 			path = AppLibrary;
 			sourceTree = "<group>";
@@ -52,7 +83,10 @@
 		9A5E9F732B8EF36D00444BAA /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				9A6B586D2B8ABE3100BFAAAF /* HomeScreen.swift */,
+				9A6B586D2B8ABE3100BFAAAF /* HomeScreenView.swift */,
+				9A2157932B93ED500097B681 /* BackgroundImageView.swift */,
+				9A2157952B93ED580097B681 /* NotificationView.swift */,
+				9A2157972B93ED640097B681 /* TimeView.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -77,8 +111,7 @@
 		9A6B584F2B8ABD1A00BFAAAF = {
 			isa = PBXGroup;
 			children = (
-				9A5E9F702B8EEBC100444BAA /* Constants.swift */,
-				9A6B585A2B8ABD1A00BFAAAF /* HomeScreen */,
+				9A6B585A2B8ABD1A00BFAAAF /* IphoneLibrary */,
 				9A6B58592B8ABD1A00BFAAAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,21 +119,22 @@
 		9A6B58592B8ABD1A00BFAAAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A6B58582B8ABD1A00BFAAAF /* HomeScreen.app */,
+				9A6B58582B8ABD1A00BFAAAF /* IphoneLibrary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A6B585A2B8ABD1A00BFAAAF /* HomeScreen */ = {
+		9A6B585A2B8ABD1A00BFAAAF /* IphoneLibrary */ = {
 			isa = PBXGroup;
 			children = (
 				9A6B585B2B8ABD1A00BFAAAF /* HomeScreenApp.swift */,
-				9A5E9F752B8EF38D00444BAA /* Model */,
+				9A21578B2B93D83F0097B681 /* ContentView.swift */,
 				9A5E9F742B8EF38200444BAA /* Modules */,
 				9A6B585F2B8ABD1B00BFAAAF /* Assets.xcassets */,
+				9A5E9F702B8EEBC100444BAA /* Constants.swift */,
 				9A6B58612B8ABD1B00BFAAAF /* Preview Content */,
 			);
-			path = HomeScreen;
+			path = IphoneLibrary;
 			sourceTree = "<group>";
 		};
 		9A6B58612B8ABD1B00BFAAAF /* Preview Content */ = {
@@ -114,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A6B58572B8ABD1A00BFAAAF /* HomeScreen */ = {
+		9A6B58572B8ABD1A00BFAAAF /* IphoneLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6B58662B8ABD1B00BFAAAF /* Build configuration list for PBXNativeTarget "HomeScreen" */;
+			buildConfigurationList = 9A6B58662B8ABD1B00BFAAAF /* Build configuration list for PBXNativeTarget "IphoneLibrary" */;
 			buildPhases = (
 				9A6B58542B8ABD1A00BFAAAF /* Sources */,
 				9A6B58552B8ABD1A00BFAAAF /* Frameworks */,
@@ -126,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = HomeScreen;
+			name = IphoneLibrary;
 			productName = HomeScreen;
-			productReference = 9A6B58582B8ABD1A00BFAAAF /* HomeScreen.app */;
+			productReference = 9A6B58582B8ABD1A00BFAAAF /* IphoneLibrary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A6B58532B8ABD1A00BFAAAF /* Build configuration list for PBXProject "HomeScreen" */;
+			buildConfigurationList = 9A6B58532B8ABD1A00BFAAAF /* Build configuration list for PBXProject "IphoneLibrary" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +193,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A6B58572B8ABD1A00BFAAAF /* HomeScreen */,
+				9A6B58572B8ABD1A00BFAAAF /* IphoneLibrary */,
 			);
 		};
 /* End PBXProject section */
@@ -181,12 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6B585E2B8ABD1A00BFAAAF /* AppKLibrary.swift in Sources */,
-				9A6B586E2B8ABE3100BFAAAF /* HomeScreen.swift in Sources */,
+				9A2157942B93ED500097B681 /* BackgroundImageView.swift in Sources */,
+				9A2157902B93DA8E0097B681 /* LibraryCell.swift in Sources */,
+				9A6B585E2B8ABD1A00BFAAAF /* LibraryView.swift in Sources */,
+				9A2157962B93ED580097B681 /* NotificationView.swift in Sources */,
+				9A6B586E2B8ABE3100BFAAAF /* HomeScreenView.swift in Sources */,
+				9A21578C2B93D83F0097B681 /* ContentView.swift in Sources */,
 				9A6B585C2B8ABD1A00BFAAAF /* HomeScreenApp.swift in Sources */,
-				9A6B586A2B8ABD7F00BFAAAF /* AppLibraryViewModel.swift in Sources */,
+				9A6B586A2B8ABD7F00BFAAAF /* LibraryViewModel.swift in Sources */,
+				9A21578E2B93DA7A0097B681 /* DockView.swift in Sources */,
 				9A6B586C2B8ABD9F00BFAAAF /* Model.swift in Sources */,
 				9A5E9F712B8EEBC100444BAA /* Constants.swift in Sources */,
+				9A2157982B93ED640097B681 /* TimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HomeScreen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IphoneLibrary/Preview Content\"";
 				DEVELOPMENT_TEAM = 2972HQU7FK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -348,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HomeScreen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IphoneLibrary/Preview Content\"";
 				DEVELOPMENT_TEAM = 2972HQU7FK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -373,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A6B58532B8ABD1A00BFAAAF /* Build configuration list for PBXProject "HomeScreen" */ = {
+		9A6B58532B8ABD1A00BFAAAF /* Build configuration list for PBXProject "IphoneLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6B58642B8ABD1B00BFAAAF /* Debug */,
@@ -382,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6B58662B8ABD1B00BFAAAF /* Build configuration list for PBXNativeTarget "HomeScreen" */ = {
+		9A6B58662B8ABD1B00BFAAAF /* Build configuration list for PBXNativeTarget "IphoneLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6B58672B8ABD1B00BFAAAF /* Debug */,
